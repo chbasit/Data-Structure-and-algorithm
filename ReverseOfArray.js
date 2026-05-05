@@ -16,3 +16,14 @@ console.log("Reverse of array is "+number);
 let array=[1,2,3,4,5];
 array.reverse();
 console.log("Reverse of array by using reverse function "+array);
+
+// modern es6 
+let arr=[89,53,5,25,6];
+let left=0;
+let right=arr.length-1;
+while(left<right){
+    [arr[left],arr[right]]=[arr[right],arr[left]];
+    left++;
+    right--;
+}
+console.log("array is "+arr);
