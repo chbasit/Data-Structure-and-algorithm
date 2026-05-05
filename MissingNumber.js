@@ -1,6 +1,7 @@
 let array=[1,2,4,5,6];
+let n=array.length+1;
 let totalsum=0;
-let expectedsum=(array.length+1)*(array.length+2)/2;
+let expectedsum=(n)*(n+1)/2;
 for(let i=0;i<array.length;i++){
     totalsum+=array[i];
 }
