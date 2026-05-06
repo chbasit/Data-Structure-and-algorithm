@@ -18,4 +18,15 @@ function removeDuplicate(arr){
 console.log("Array after removing duplicate is "+ removeDuplicate(duplicatenumber));
 
 
+let fruitlist=["apple","banana","orange","grape","apple","banana"];
+function Fruite(arr){
+    let uniqueFruite=[];
+    arr.forEach(element => {
+        if (!uniqueFruite.includes(element)) {
+            uniqueFruite.push(element);
+        }
+    })
+    return uniqueFruite;
+}
+console.log("Unique fruit in array are "+Fruite(fruitlist));
 
