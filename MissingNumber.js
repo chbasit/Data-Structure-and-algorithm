@@ -6,4 +6,4 @@ for(let i=0;i<array.length;i++){
     totalsum+=array[i];
 }
 let missingnumber=expectedsum-totalsum;
-console.log("Missing number is "+missingnumber);
+console.log("Missing number "+missingnumber);
