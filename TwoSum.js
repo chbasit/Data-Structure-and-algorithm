@@ -39,7 +39,6 @@
 
 let array = [2, 3, 5, 6, 1, 53, 21];
 let target = 5;
-
 function twoSumBestSpeed(arr, targetVal) {
     const numMap = new Map(); 
 
@@ -61,3 +60,7 @@ if (result.length > 0) {
 } else {
     console.log("No two sum pair found.");
 }
+
+// time complexity is O(n) and space complexity is O(n)
+// this is optimise because i am using a hash map to store the numbers and their indices, 
+// which allows me to check for the required complement in constant time.
