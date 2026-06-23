@@ -1,10 +1,7 @@
 let array = [1,2,3,4,5,6,1,2,2,2,10,1,2,3];
-
 for(let i = 0; i < array.length; i++) {
-
     let count = 0;
     let alreadyChecked = false;
-
     // check if number already counted before
     for(let k = 0; k < i; k++) {
         if(array[i] === array[k]) {
