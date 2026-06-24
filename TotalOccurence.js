@@ -46,12 +46,12 @@
 
 
 // reduce method 0(n)
-const array=[1,2,3,4,5,4,3,4];
-const target=4;
-const totalOccurrences=array.reduce
-((count,current)=>{
-return current ===target  ? count+1 : count
+// const array=[1,2,3,4,5,4,3,4];
+// const target=4;
+// const totalOccurrences=array.reduce
+// ((count,current)=>{
+// return current ===target  ? count+1 : count
 
-},0);
-console.log(`Total occurrences of ${target}:`, totalOccurrences);
+// },0);
+// console.log(`Total occurrences of ${target}:`, totalOccurrences);
 
